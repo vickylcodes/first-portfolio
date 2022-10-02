@@ -4,15 +4,55 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Noto Sans Mono", monospace;
+  --background: #faeaf3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Alkalami", serif;
 }
 
 h1 {
-  color: black;
-  font-family: "Alkalami", serif;
-  font-weight: bold;
+  font-size: 96px;
+  color: var(--primary-color);
 }
 
 p {
   font-family: var(--primary-font);
   font-weight: normal;
+}
+
+.hero {
+  background-color: var(--background);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.btn-branding {
+  font-family: var(--primary-font);
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
