@@ -1,0 +1,18 @@
+:root {
+  --primary-color: rgb(214, 121, 164);
+  --secondary-color: #f7e1f4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Noto Sans Mono", monospace;
+}
+
+h1 {
+  color: black;
+  font-family: "Alkalami", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: var(--primary-font);
+  font-weight: normal;
+}
