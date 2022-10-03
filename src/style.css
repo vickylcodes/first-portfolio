@@ -20,11 +20,18 @@ h6 {
 h1 {
   font-size: 96px;
   color: var(--primary-color);
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 58px;
 }
 
 p {
   font-family: var(--primary-font);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -43,16 +50,86 @@ p {
 .hero h2 {
   font-family: var(--secondary-font);
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 24px;
 }
 
 .btn-branding {
   font-family: var(--primary-font);
-  background: #6c63ff;
+  background: var(--primary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: white;
+}
+
+.btn-branding-outline {
+  font-family: var(--primary-font);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.paragraph-headings:hover {
+  color: #e37189;
+}
+
+#check-out {
+  color: #e37189;
+  font-size: 58px;
+  font-weight: bolder;
+  font-family: var(--secondary-font);
+  padding: 50px;
+}
+
+#coding-gif {
+  max-width: 100%;
+  height: auto;
+}
+
+#coming-soon-gif {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  #check-out {
+    line-height: normal;
+    font-size: 38px;
+    padding: 0;
+  }
+
+  #coding-gif {
+    margin-top: 8%;
+    max-width: 30%;
+  }
 }
