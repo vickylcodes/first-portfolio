@@ -93,12 +93,13 @@ p {
   padding: 15px 30px;
 }
 
-.btn-branding:hover {
-  color: white;
+.btn-branding-outline:hover {
+  background-color: var(--primary-color);
+  transition: all 600ms ease-in-out;
 }
 
 .btn-branding-outline {
-  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   font-size: 18px;
@@ -114,9 +115,49 @@ p {
   color: #e37189;
 }
 
+.logo {
+  max-height: 150px;
+  margin-left: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  color: var(--background);
+  color: #6d7a7a;
+  text-decoration: none;
+}
+
+nav li.active a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 #check-out {
   color: #e37189;
-  font-size: 58px;
+  font-size: 50px;
   font-weight: bolder;
   font-family: var(--secondary-font);
   padding: 50px;
