@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="This is Victoria Lee's first coding portfolio."
+      content="Check out Victoria's SheCodes projects in more detail here."
     />
-    <title>Victoria Lee's SheCodes Portfolio</title>
+    <title>Victoria Lee's SheCodes Projects</title>
 
     <link
       rel="stylesheet"
@@ -47,6 +47,37 @@
   </head>
 
   <body>
+    <div class="container-one">
+      <nav class="d-flex justify-content-center flex-column">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.PNG"
+            class="logo d-none d-md-block"
+            alt="Victoria Lee Logo"
+          />
+          <img
+            src="/images/logo-small.PNG"
+            class="logo d-block d-md-none"
+            alt="Victoria Lee Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Victoria">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Victoria's Work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Victoria">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -56,7 +87,7 @@
             <img
               src="/images/pink-app.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Pink Project"
             />
             <h3 class="text-center m-0">Pink Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -65,7 +96,7 @@
             <img
               src="/images/weather-app.png"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Weather Project"
             />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted">
@@ -77,7 +108,7 @@
             <img
               src="/images/coming-soon-gif.gif"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Coming Soon"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
             <p class="text-center text-muted">Built with HTML, CSS and React</p>
@@ -87,13 +118,67 @@
             <img
               src="/images/coming-soon-gif.gif"
               class="img-fluid mb-3 rounded"
-              alt=""
+              alt="Coming Soon"
             />
             <h3 class="text-center m-0">Translation App</h3>
             <p class="text-center text-muted">Built with HTML, CSS and React</p>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p id="work-together" class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:vickylee10@hotmail.com"
+            class="email-link"
+            title="Email Victoria"
+            >vickylee10@hotmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/vickylcodes"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/victoria-lee-190b89b3/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          💻 This project was coded by Victoria whilst completing the SheCodes
+          Responsive course, and it is
+          <a href="https://github.com/vickylcodes" target="_blank"
+            >open-sourced</a
+          >.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
