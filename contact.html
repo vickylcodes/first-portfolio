@@ -80,26 +80,39 @@
 
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-5">Get in touch with me!</h1>
-        <h3>Email</h3>
+        <h1 id="get-in-touch" class="mb-5">Let's get in touch!</h1>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Enter your email address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" autocomplete="off" autofocus="on">
+          </div>
+        
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Leave a message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" autocomplete="off" autofocus="on"></textarea>
+          </div>
+        </form>
+        <h3 class="contact-heading">Email</h3>
         <p>
-          <a href="mailto:vickylee10@hotmail.com">vickylee10@hotmail.com</a>
+          <a class="contact-link" href="mailto:vickylee10@hotmail.com">vickylee10@hotmail.com</a>
         </p>
-        <h3>GitHub</h3>
+        <h3 class="contact-heading">GitHub</h3>
         <p>
-          <a href="https://github.com/vickylcodes" target="_blank"
+          <a class="contact-link" href="https://github.com/vickylcodes" target="_blank"
             >@vickylcodes</a
           >
         </p>
-        <h3>LinkedIn</h3>
+        <h3 class="contact-heading">LinkedIn</h3>
         <p>
-          <a
+          <a class="contact-link"
             href="https://www.linkedin.com/in/victoria-lee-190b89b3/"
             target="_blank"
             >@victoria-lee-190b89b3</a
           >
         </p>
       </div>
+
       <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
@@ -115,14 +128,7 @@
             >
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a
-            href="mailto:vickylee10@hotmail.com"
-            class="email-link"
-            title="Email Victoria"
-            >vickylee10@hotmail.com
-          </a>
-        </div>
+  
         <div class="social-links d-flex justify-content-center">
           <a
             href="https://github.com/vickylcodes"
@@ -147,11 +153,13 @@
           </a>
         </div>
         <p class="text-center mt-5">
-          💻 This project was coded by Victoria whilst completing the SheCodes
-          Responsive course, and it is
-          <a href="https://github.com/vickylcodes" target="_blank"
-            >open-sourced</a
-          >.
+          👩🏻‍💻 This project was coded by Victoria whilst completing the 
+          <a class="footer-link" href="https://www.shecodes.io/responsive" target="_blank">SheCodes Responsive course</a>.
+          <br /> 
+          It is also 
+          <a class="footer-link" href="https://github.com/vickylcodes" target="_blank"
+            >open-sourced.</a
+          >👍🏼
         </p>
       </footer>
     </div>
