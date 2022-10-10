@@ -298,11 +298,6 @@ footer .social-links a:hover {
   color: #6D7A7A;
 }
 
-h3 #dictionary-title {
-  display: block;
-  margin-top: -5px;
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -356,5 +351,10 @@ h3 #dictionary-title {
 
   #work-together {
     margin-left: 0%;
+  }
+
+  #about-me, 
+  #take-a-look {
+    font-size: 45px;
   }
 }
