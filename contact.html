@@ -82,28 +82,56 @@
       <div class="content">
         <h1 id="get-in-touch" class="mb-5">Let's get in touch!</h1>
 
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Enter your email address:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" autocomplete="off" autofocus="on">
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h4 class="get-in-touch-title mb-4">Contact Form</h4>
+        <div class="card">
+          <div class="card-body">
+            <form
+            action="https://formspree.io/f/xzbwvzoa"
+            method="POST"
+            >
+              <div class="form-group">
+                <label 
+                  class="form-label">Please enter your email address:</label>
+                <input 
+                  type="email" 
+                  name="_replyto"
+                  class="form-control" 
+                  autocomplete="off" 
+                  required
+                  autofocus="on"
+                  />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Leave a message here:</label>
+                <textarea 
+                  name="message" 
+                  class="form-control" 
+                  rows="3" 
+                  autocomplete="off" 
+                  autofocus="on" 
+                  required>
+                </textarea>
+              </div>
+              <input 
+                type="submit" value="Submit" class="btn btn-primary" />
+              
+            </form>
           </div>
-        
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Leave a message:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" autocomplete="off" autofocus="on"></textarea>
-          </div>
-        </form>
-        <h3 class="contact-heading">Email</h3>
-        <p>
-          <a class="contact-link" href="mailto:vickylee10@hotmail.com">vickylee10@hotmail.com</a>
-        </p>
-        <h3 class="contact-heading">GitHub</h3>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4 class="get-in-touch-title my-socials mb-5">My Socials</h4>
+        <h3 id="github-heading">GitHub</h3>
         <p>
           <a class="contact-link" href="https://github.com/vickylcodes" target="_blank"
             >@vickylcodes</a
           >
         </p>
-        <h3 class="contact-heading">LinkedIn</h3>
+        <h3 id="linkedin-heading">LinkedIn</h3>
         <p>
           <a class="contact-link"
             href="https://www.linkedin.com/in/victoria-lee-190b89b3/"
@@ -111,24 +139,15 @@
             >@victoria-lee-190b89b3</a
           >
         </p>
+        <h3 id="email-heading">Email</h3>
+        <p>
+          <a class="contact-link" href="mailto:vickylee10@hotmail.com">vickylee10@hotmail.com</a>
+        </p>
       </div>
+    </div>
+  </div>
 
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-          <div>
-            <h3>Work Inquiry</h3>
-            <p id="work-together" class="text-muted">Let's work together!</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-3"
-              title="Contact me"
-              >Contact me</a
-            >
-          </div>
-        </div>
-  
         <div class="social-links d-flex justify-content-center">
           <a
             href="https://github.com/vickylcodes"
@@ -145,11 +164,11 @@
             <i class="fab fa-linkedin"></i>
           </a>
           <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            title="Instagram Profile"
+          href="mailto:vickylee10@hotmail.com"
+          class="email-link"
+          title="Email Victoria"
           >
-            <i class="fab fa-instagram"></i>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
         <p class="text-center mt-5">
